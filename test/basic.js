@@ -1,5 +1,6 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 var buffer = require('buffer')
-var isBuffer = require('../')
+var isBuffer = require('is-buffer/')
 var test = require('tape')
 
 test('is-buffer', function (t) {
@@ -23,3 +24,5 @@ test('is-buffer', function (t) {
 
   t.end()
 })
+
+return module.exports;});
