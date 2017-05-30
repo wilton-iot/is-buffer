@@ -1,7 +1,7 @@
 define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 var buffer = require('buffer')
 var isBuffer = require('is-buffer/')
-var test = require('tape')
+var test = require('tape-compat')
 
 test('is-buffer', function (t) {
   t.equal(isBuffer(new Buffer(4)), true, 'new Buffer(4)')
