@@ -47,5 +47,10 @@
   },
   "testling": {
     "files": "test/*.js"
+  },
+  "wilton": {
+    "excludes": [
+      "test"
+    ]
   }
 }
